@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Retro Gaming";
+    src: url('arcadeclassic.regular.ttf');
+
+  }
+
+
+h1{
+font-family: Retro Gaming;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type="button"] {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#comenzar {
+    margin-top: 40px;
+}
